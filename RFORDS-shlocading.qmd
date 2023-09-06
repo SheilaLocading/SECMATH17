@@ -1,0 +1,14 @@
+---
+title: "R for Data Science (2e): Activity in SEC MATH 17"
+author: "Sheila Locading"
+format: html
+editor: visual
+---
+
+# Introduction
+
+## What Will You Learn
+
+Review the pipeline because sir will make it a part of our exam.
+
+![pipeline](rfordspics/rfordspic1.png)

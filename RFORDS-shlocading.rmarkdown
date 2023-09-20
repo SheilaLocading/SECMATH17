@@ -5,6 +5,7 @@ format: html
 editor: visual
 ---
 
+
 # Introduction
 
 ## What Will You Learn
@@ -22,18 +23,22 @@ install.packages("tidyverse")
 ```         
 ```
 
+
 ```{r}
 #loading the tidyverse
 library(tidyverse)
 ```
 
+
 we install another packages by typing in the console the following code:
+
 
 ```{r}
 install.packages(c("arrow", "babynames", "curl", "duckdb", "gapminder", "ggrepel",
 "ggridges", "ggthemes", "hexbin", "janitor", "Lahman", "leaflet", "maps",
 "nycflights13", "openxlsx", "palmerpenguins", "repurrrsive", "tidymodels", "writexl"))
 ```
+
 
 # Data Visualize
 
@@ -43,6 +48,7 @@ First we load tidyverse packages
 
 First we load tidyverse packages
 
+
 ```{r}
 #|label: load-packages
 library(palmerpenguins)
@@ -50,7 +56,9 @@ library(ggthemes)
 library(tidyverse)
 ```
 
+
 # First Step
+
 
 ```{r}
 penguins
@@ -72,3 +80,4 @@ ggplot(data = penguins,
        geom_smooth(method = "lm")
   
 ```
+

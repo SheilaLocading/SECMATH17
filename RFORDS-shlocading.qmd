@@ -15,7 +15,7 @@ Review the pipeline because sir will make it a part of our exam.
 
 # The Tidyverse
 
-to install the tidyverse package use the code:
+To install the tidyverse package use the code:
 
 install.packages("tidyverse")
 
@@ -27,7 +27,7 @@ install.packages("tidyverse")
 library(tidyverse)
 ```
 
-we install another packages by typing in the console the following code:
+We install another packages by typing in the console the following code:
 
 ```{r}
 install.packages(c("arrow", "babynames", "curl", "duckdb", "gapminder", "ggrepel",
@@ -38,8 +38,6 @@ install.packages(c("arrow", "babynames", "curl", "duckdb", "gapminder", "ggrepel
 # Data Visualize
 
 ## Reminder
-
-First we load tidyverse packages
 
 First we load tidyverse packages
 

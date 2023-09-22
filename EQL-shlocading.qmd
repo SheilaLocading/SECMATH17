@@ -1,0 +1,29 @@
+---
+title: "Exploring Quarto and Latex"
+author: "Sheila Locading"
+format: pdf
+editor: visual
+number-sections: true
+---
+
+# ANTIDIFFERENTIATION AND INDEFINITE INTEGRALS
+
+## Integration by Substitution
+
+**Theorem 4.1.11 (Substitution Rule).** If $u=g(x)$ is a differentiable function whose range is an interval I and f is continuous on I, then
+
+$$
+\int f(g(x))\cdot g' (x)dx=\int f(u)du.
+$$
+
+**Example 4.1.12.**
+
+1.  $\int (1-4x)^\frac{1}{2} dx$
+
+    If we let $u = 1-4x$ , then $du = -4dx$. We multiply the integrand by $\frac {-4}{-4}$. Thus, $$
+    \int (1-4x)^{1/2}\, dx = \int (1-4x)^{1/2} \cdot \frac {-4}{-4}\, dx = \int (u)^{1/2}(-\frac{du}{u})\, = -\frac{1}{4} \int u^{1/2} \, du = -\frac{1}{4}\cdot \frac {2u^ {3/2}} {3} + C.
+    $$
+
+We put the final answer in terms of $x$ by substituting $u = 1-4x$. Therefore, $$ 
+\int (1-4x)^{1/2} dx = \frac {(1-4x)^ {3/2}} {6} + C
+$$
